@@ -28,7 +28,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-neutral-950 text-neutral-200">
-        <header className="bg-gradient-to-b from-black/90 to-emerald-500/10 backdrop-blur-md border-b border-emerald-500/20 sticky top-0 z-50">
+        <header className="bg-[#0A1B16]/95 backdrop-blur-md border-b border-[#122A22] sticky top-0 z-50">
           <div className="max-w-6xl mx-auto px-4 sm:px-8 h-16 flex items-center justify-between">
             <a href="/" className="font-extrabold text-white flex items-center gap-2 group">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center text-white shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition-transform">
