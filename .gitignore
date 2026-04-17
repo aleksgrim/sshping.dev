@@ -9,8 +9,8 @@ frontend/out/
 
 # Go build outputs
 build/
-backend/sshping
-sshping
+/backend/sshping
+/sshping
 *.exe
 *.exe~
 *.dll
