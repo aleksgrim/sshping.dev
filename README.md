@@ -16,8 +16,9 @@ A self-hosted web tool for testing SSH, SFTP, and FTP(S) connections. Run it loc
 
 ### Docker (Recommended)
 ```bash
-docker build -t sshping/sshping .
-docker run -p 3000:3000 -e AUTH_TOKENS=your_secret_token sshping/sshping
+cp docker-compose.example.yml docker-compose.yml
+# Set your secure AUTH_TOKENS inside docker-compose.yml or .env!
+docker compose up --build -d
 ```
 Navigate to http://localhost:3000
 
